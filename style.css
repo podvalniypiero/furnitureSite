@@ -1,0 +1,103 @@
+
+body {
+    background-color: white;
+  }
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction{
+    font-size: 25px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    
+}
+
+.introduction-main{
+    font-size: 25px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color:#4C0027;
+    font-weight: bolder;
+    
+}
+
+
+
+
+.heaps{
+    display: flex;
+    justify-content: center;
+    
+}
+.heaps{
+    display: flex;
+    flex-direction: row;
+    margin: 90px;
+    padding: 20px;
+}
+.inputField{
+    display: flex;
+    
+}
+#search{
+    flex: 1;
+    background-color: bisque;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color:#BF8B67;
+    font-style: italic;
+    border: none;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.card{
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+a,h1{
+    color:bisque;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-decoration: none;
+}
+h1{
+    font-size: 60px;
+}
+
+a{
+    font-size: 25px;
+    margin-left: 100px;
+    font-weight: bolder;
+   
+    
+
+    
+}
+
+a:hover{
+    color: #4C0027;
+    cursor:grab;
+}
+
+@media all and (max-width:800px){
+    .heap{
+        width: 100%;
+      height: 100%;
+    }
+  img{
+    width: 100%;
+    height:auto;
+  }
+
+}
